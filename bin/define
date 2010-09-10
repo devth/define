@@ -9,4 +9,9 @@ url = "http://www.google.com/search?q=define:#{word_to_define}"
 
 doc = Nokogiri::HTML(open(url))
 
-puts doc.at_css("std").text
+puts word_to_define
+puts url
+
+doc.css(".std li").each do |li|
+  puts "- #{li.content}"
+end
