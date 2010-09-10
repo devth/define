@@ -5,24 +5,24 @@
 
 Gem::Specification.new do |s|
   s.name = %q{define}
-  s.version = "0.0.4"
+  s.version = "0.0.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Trevor Hartman"]
   s.date = %q{2010-09-09}
   s.default_executable = %q{define}
-  s.description = %q{A simple CLI to Google's define:word utility. Syntax is define: word [or phrase].}
+  s.description = %q{A simple CLI to Google's definitions search. Syntax is define word [or phrase].}
   s.email = %q{trevorhartman@gmail.com}
   s.executables = ["define"]
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc"
+     "README.md"
   ]
   s.files = [
     ".document",
      ".gitignore",
      "LICENSE",
-     "README.rdoc",
+     "README.md",
      "Rakefile",
      "VERSION",
      "bin/define",
