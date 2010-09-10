@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'nokogiri'
+require 'open-uri'
+
+word_to_define = ARGV.join " "
+url = "http://www.google.com/search?q=define:#{word_to_define}"
+
+doc = Nokogiri::HTML(open(url))
+
+puts doc.at_css("std").text
