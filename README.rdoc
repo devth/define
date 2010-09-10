@@ -1,6 +1,6 @@
 = define
 
-define is a simple CLI to Google's define:word utility. Syntax is +define: word [or phrase]+ to return Google's definitions. Quit wasting your time looking up definitions in a clunky old browser and let command line define build your vocabulary minimalistically!
+define is a simple CLI to Google's define:word utility. Syntax is [+define: word [or phrase]+] to return Google's definitions. Quit wasting your time looking up definitions in a clunky old browser and let command line define build your vocabulary minimalistically!
 
 == Copyright
 
