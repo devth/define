@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "define"
     gem.summary = %Q{A simple CLI to Google's define:word utility.}
-    gem.description = %Q{A simple CLI to Google's define:word utility.}
+    gem.description = %Q{A simple CLI to Google's define:word utility. Syntax is `define: word [or phrase]`.}
     gem.email = "trevorhartman@gmail.com"
     gem.homepage = "http://github.com/devth/define"
     gem.authors = ["Trevor Hartman"]
