@@ -6,12 +6,12 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "define"
     gem.summary = %Q{A simple CLI to Google's define:word utility.}
-    gem.description = %Q{A simple CLI to Google's define:word utility. Syntax is `define: word [or phrase]`.}
+    gem.description = %Q{A simple CLI to Google's define:word utility. Syntax is define: word [or phrase].}
     gem.email = "trevorhartman@gmail.com"
     gem.homepage = "http://github.com/devth/define"
     gem.authors = ["Trevor Hartman"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-    gem.add_dependency('nokogiri')
+    gem.add_dependency "nokogiri", ">= 1.4.2"
+    gem.add_dependency "colorize", ">= 0.5.8"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
