@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{define}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Trevor Hartman"]
   s.date = %q{2010-09-09}
   s.default_executable = %q{define}
-  s.description = %q{A simple CLI to Google's define:word utility. Syntax is `define: word [or phrase]`.}
+  s.description = %q{A simple CLI to Google's define:word utility. Syntax is define: word [or phrase].}
   s.email = %q{trevorhartman@gmail.com}
   s.executables = ["define"]
   s.extra_rdoc_files = [
@@ -46,15 +46,15 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
-      s.add_runtime_dependency(%q<nokogiri>, [">= 0"])
+      s.add_runtime_dependency(%q<nokogiri>, [">= 1.4.2"])
+      s.add_runtime_dependency(%q<colorize>, [">= 0.5.8"])
     else
-      s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
-      s.add_dependency(%q<nokogiri>, [">= 0"])
+      s.add_dependency(%q<nokogiri>, [">= 1.4.2"])
+      s.add_dependency(%q<colorize>, [">= 0.5.8"])
     end
   else
-    s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
-    s.add_dependency(%q<nokogiri>, [">= 0"])
+    s.add_dependency(%q<nokogiri>, [">= 1.4.2"])
+    s.add_dependency(%q<colorize>, [">= 0.5.8"])
   end
 end
 
