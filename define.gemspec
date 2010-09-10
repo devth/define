@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ["Trevor Hartman"]
   s.date = %q{2010-09-09}
   s.default_executable = %q{define}
-  s.description = %q{A simple CLI to Google's define:word utility.}
+  s.description = %q{A simple CLI to Google's define:word utility. Syntax is `define: word [or phrase]`.}
   s.email = %q{trevorhartman@gmail.com}
   s.executables = ["define"]
   s.extra_rdoc_files = [
