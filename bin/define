@@ -2,11 +2,12 @@
 
 require 'rubygems'
 require 'nokogiri'
-require 'open-uri'
 require 'colorize'
+require 'open-uri'
+require 'cgi'
 
 word_to_define = ARGV.join " "
-url = "http://www.google.com/search?q=define:#{word_to_define}"
+url = "http://www.google.com/search?q=define:#{CGI.escape(word_to_define)}"
 
 doc = Nokogiri::HTML(open(url))
 
