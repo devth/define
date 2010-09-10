@@ -5,12 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "define"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A simple CLI to Google's define:word utility.}
+    gem.description = %Q{A simple CLI to Google's define:word utility.}
     gem.email = "trevorhartman@gmail.com"
     gem.homepage = "http://github.com/devth/define"
     gem.authors = ["Trevor Hartman"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.add_dependency('nokogiri')
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

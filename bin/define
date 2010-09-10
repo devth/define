@@ -3,15 +3,20 @@
 require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
+require 'colorize'
 
 word_to_define = ARGV.join " "
 url = "http://www.google.com/search?q=define:#{word_to_define}"
 
 doc = Nokogiri::HTML(open(url))
 
-puts word_to_define
-puts url
+puts
+puts " Definitions for #{word_to_define} ".white.on_black
+puts
 
 doc.css(".std li").each do |li|
-  puts "- #{li.content}"
+  puts " * #{li.content}".cyan
+  puts
 end
+
+puts
