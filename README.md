@@ -12,7 +12,7 @@ define is a simple CLI to Google's definitions search. Quit wasting your time lo
 
 ## Example
 
-    % define shoal                                                                                                                                                                                                                                                                                                                   2010-09-13 14:33:51 thartman ttys010
+    % define shoal
 
     Definitions for shoal 
 
