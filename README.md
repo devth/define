@@ -1,11 +1,26 @@
 # define
 
-define is a simple CLI to Google's definitions search. Syntax is `define word [or phrase]`. Quit wasting your time looking up definitions in a clunky old browser and let command line define build your vocabulary minimalistically!
+define is a simple CLI to Google's definitions search. Quit wasting your time looking up definitions in a clunky old browser and let command line define build your vocabulary minimalistically!
 
 ## Installation
 
 `gem install define`
 
+## Usage
+
+`define word [or phrase]`
+
+## Example
+
+    % define shoal                                                                                                                                                                                                                                                                                                                   2010-09-13 14:33:51 thartman ttys010
+
+    Definitions for shoal 
+
+    * a sandbank in a stretch of water that is visible at low tide  
+
+    * shallow: make shallow; "The silt shallowed the canal"  
+
+    * a stretch of shallow water  
 
 ## Copyright
 
