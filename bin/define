@@ -19,5 +19,3 @@ doc.css(".std li").each do |li|
   puts " * #{li.content}".cyan
   puts
 end
-
-puts
